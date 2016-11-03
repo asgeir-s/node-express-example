@@ -7,4 +7,12 @@ Requests should set:
 ``` 
 Content-Type: application/json 
 ```
-curl --header "Content-Type: application/json" localhost:300/
+### curl examples
+``` 
+curl --header "Content-Type: application/json" localhost:3000/
+curl -H "Content-Type: application/json" -X POST -d '{"make":"BMW","model":2003}' http://localhost:3000/cars
+curl --header "Content-Type: application/json" localhost:3000/cars
+curl --header "Content-Type: application/json" localhost:3000/cars/1
+curl --header "Content-Type: application/json" localhost:3000/users/123xxg
+curl --header "Content-Type: application/json" localhost:3000/person
+``` 
