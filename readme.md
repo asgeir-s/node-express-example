@@ -15,4 +15,5 @@ curl -H "Content-Type: application/json" localhost:3000/cars
 curl -H "Content-Type: application/json" localhost:3000/cars/1
 curl -H "Content-Type: application/json" localhost:3000/users/123xxg
 curl -H "Content-Type: application/json" localhost:3000/person
+curl -H "Content-Type: application/json" -X POST -d '{"address":"El Street","year":1988}' http://localhost:3000/house
 ``` 
